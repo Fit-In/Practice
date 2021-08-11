@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<!--Land 상태를 별도로 레이아웃 설정을 하기 위한 xml-->
     <Button
         android:id="@+id/button_toast"
         android:layout_width="0dp"

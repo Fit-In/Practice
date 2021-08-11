@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/article_heading">
-
+<!-- 스크롤 할 수 있게 LinearLayout을 직접 감쌈-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
