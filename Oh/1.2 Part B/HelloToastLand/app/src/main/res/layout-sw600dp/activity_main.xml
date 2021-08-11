@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<!-- 태블릿 버전에서의 xml-->
     <Button
         android:id="@+id/button_toast"
         android:layout_width="398dp"

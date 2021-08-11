@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+<!--LinearLayout일 때 설정-->
     <Button
         android:id="@+id/button_toast"
         android:layout_width="match_parent"

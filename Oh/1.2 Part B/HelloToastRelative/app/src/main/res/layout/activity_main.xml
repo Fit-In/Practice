@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<!--RelativeLayout일 때 설정-->
     <Button
         android:id="@+id/button_toast"
         android:layout_width="match_parent"
