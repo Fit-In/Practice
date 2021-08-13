@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TwoActivityHomeWork</string>
+    <string name="count_TextView">0</string>
+    <string name="count_Button">COUNT</string>
+    <string name="write_EditText_hint">Write Your Want Message</string>
+</resources>
