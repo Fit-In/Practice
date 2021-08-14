@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="techtown.org.implicitintentsreceiver">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImplicitIntentsReceiver">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!--action.VIEW - 어떠한 Intent View Action이 가능함-->
+            <!--DEFAULT - 어떠한 implicit Intent도 받을 수 있음(이 카테고리가 있으면)-->
+            <!--BROWSABLE - 어떠한 웹페이지, 이메일, 다른 소스에서 링크를 요청할 수 있음-->
+            <!--scheme, host - URI가 http scheme을 포함하고 host가 아래와 같아야함-->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http" android:host="developer.android.com"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

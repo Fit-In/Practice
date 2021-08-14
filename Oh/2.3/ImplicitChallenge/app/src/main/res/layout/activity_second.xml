@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/oneItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/one_item_button"/>
+
+    <Button
+        android:id="@+id/twoItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/two_item_button"/>
+
+    <Button
+        android:id="@+id/threeItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/three_item_button"/>
+
+    <Button
+        android:id="@+id/fourItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/four_item_button"/>
+
+    <Button
+        android:id="@+id/fiveItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/five_item_button"/>
+
+    <Button
+        android:id="@+id/sixItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/six_item_button"/>
+
+    <Button
+        android:id="@+id/sevenItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/seven_item_button"/>
+
+    <Button
+        android:id="@+id/eightItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/eight_item_button"/>
+
+    <Button
+        android:id="@+id/nineItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/nine_item_button"/>
+
+    <Button
+        android:id="@+id/tenItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnItem"
+        android:text="@string/ten_item_button"/>
+
+</LinearLayout>
