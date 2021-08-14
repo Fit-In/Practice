@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TwoChallenge</string>
+    <string name="add_item">ADD ITEM</string>
+    <string name="one_item_button">Rice</string>
+    <string name="two_item_button">Apple</string>
+    <string name="three_item_button">Milk</string>
+    <string name="four_item_button">Cheese</string>
+    <string name="five_item_button">Chicken</string>
+    <string name="six_item_button">Meat</string>
+    <string name="seven_item_button">Water</string>
+    <string name="eight_item_button">Juice</string>
+    <string name="nine_item_button">Coffee</string>
+    <string name="ten_item_button">Coke</string>
+    <string name="edittext_loc">Store</string>
+    <string name="button_loc">Open Location</string>
+</resources>
