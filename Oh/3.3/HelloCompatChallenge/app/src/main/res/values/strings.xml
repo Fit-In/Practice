@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloCompat</string>
+    <string name="change_color">Change Color</string>
+    <string name="hello_textview">Hello World!</string>
+</resources>
