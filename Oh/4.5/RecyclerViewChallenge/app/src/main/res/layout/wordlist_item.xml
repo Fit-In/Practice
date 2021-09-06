@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--어댑터는 리스트에 담을 아이템에 대한 레이아웃이 필요함, 이에 해당하는 아이템 레이아웃-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="6dp">
+
+    <TextView
+        android:id="@+id/word"
+        style="@style/word_title" />
+
+</LinearLayout>
