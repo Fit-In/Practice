@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotifyMe</string>
+    <string name="notify_me">Notify Me!</string>
+    <string name="update_me">Update Me!</string>
+    <string name="cancel_me">Cancel Me!</string>
+    <string name="first_line">This is the first line</string>
+    <string name="second_line">This is the second line</string>
+    <string name="title">Title</string>
+    <string name="summary_text">This is summary text</string>
+</resources>
