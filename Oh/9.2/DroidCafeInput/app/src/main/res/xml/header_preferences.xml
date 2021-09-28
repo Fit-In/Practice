@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="techtown.org.droidcafe.SettingsActivity$GeneralFragment"
+        app:icon="@drawable/general_info"
+        app:key="general_header"
+        app:title="@string/general_header" />
+
+    <Preference
+        app:fragment="techtown.org.droidcafe.SettingsActivity$MessagesFragment"
+        app:icon="@drawable/messages"
+        app:key="notification_header"
+        app:title="@string/notification_header" />
+
+    <Preference
+        app:fragment="techtown.org.droidcafe.SettingsActivity$SyncFragment"
+        app:icon="@drawable/sync"
+        app:key="sync_header"
+        app:title="@string/sync_header" />
+
+</PreferenceScreen>
